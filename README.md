@@ -2,6 +2,11 @@
 # 🌐 Shaurya Rawat – AI/ML Portfolio
 
 A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript** to showcase my academic background, technical skills, projects, and achievements in **Artificial Intelligence & Machine Learning**.
+---
+
+## 🚀 Live Demo
+🔗 **Deployed Link (Vercel):**  
+👉 _[(https://my-portfolio-omega-coral-86.vercel.app/)]_
 
 ---
 
@@ -12,6 +17,7 @@ I enjoy building machine learning models from scratch, understanding the mathema
 My interests include **Machine Learning, Generative AI, Deep Learning**, and building **end-to-end AI projects**. I am actively looking for **internships, collaborations, and project opportunities**.
 
 ---
+
 
 ## ✨ Features
 - Fully responsive (desktop & mobile)
