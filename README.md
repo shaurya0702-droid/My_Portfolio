@@ -5,8 +5,8 @@ A modern, responsive personal portfolio website built using **HTML, CSS, and Jav
 ---
 
 ## 🚀 Live Demo
-🔗 **Deployed Link (Vercel):**  
-👉 _[(https://my-portfolio-omega-coral-86.vercel.app/)]_
+🔗 **Deployed on Vercel:**  
+👉 [My Portfolio](https://sem1portfolio.vercel.app/)
 
 ---
 
