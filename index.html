@@ -7,25 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ========== NAVBAR ========== -->
-  <header class="navbar">
+  <header class="navbar"> <!--nav-->
     <div class="nav-container">
       <div class="logo">My Portfolio</div>
-      <nav aria-label="Primary Navigation">
         <ul class="nav-links">
           <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievements" class="nav-link">Honors</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-      </nav>
     </div>
   </header>
-  <!-- ========== MAIN CONTENT ========== -->
   <main>
-    <!-- ========== HERO ========== -->
-    <section id="home" class="hero">
+    <section id="home" class="hero"> <!--hero-->
       <div class="hero-content hero-flex">
         <img src="prof_img.jpg" alt="Shaurya Rawat" class="profile-img" />
         <div class="hero-text">
@@ -47,42 +42,40 @@
         </div>
       </div>
     </section>
-    <!-- ========== ABOUT ========== -->
-    <section id="about" class="section">
+    <section id="about" class="section"> <!--about-->
       <div class="container">
         <h2>About Me</h2>
         <br>
-        <p>
+        <p class="tac">
           I'm a <strong>B.Tech student specializing in Artificial Intelligence and Machine Learning</strong>
           at USAR (University School of Automation and Robotics), GGSIPU. I'm driven by curiosity and the
           challenge of implementing machine learning algorithms from first principles.
         </p>
         <br>
-        <p>
+        <p class="tac">
           My focus areas include <strong>generative AI, deep learning, and end-to-end ML projects</strong>.
           I believe in understanding the mathematics behind models rather than just using libraries—which is
           why I frequently build algorithms from scratch using NumPy.
         </p>
         <br>
-        <p>
+        <p class="tac">
           I'm particularly interested in applying AI to solve real-world problems in
           <strong>healthcare, automation, and education technology</strong>. Outside of coding, I play the piano,
           which has taught me patience and the importance of consistent practice.
         </p>
         <div class="about-grid">
-          <div><strong>📍 Location:</strong> Delhi, India</div>
-          <div><strong>🎓 University:</strong> GGSIPU</div>
-          <div><strong>💼 Status:</strong> Open to Internships & Collaborations</div>
+          <div class="tac"><strong>📍 Location:</strong> Delhi, India</div>
+          <div class="tac"><strong>🎓 University:</strong> GGSIPU</div>
+          <div class="tac"><strong>💼 Status:</strong> Open to Internships & Collaborations</div>
         </div>
       </div>
     </section>
-    <!-- ========== SKILLS ========== -->
-    <section id="skills" class="section dark">
-      <div class="container">
+    <section id="skills" class="section dark">  <!--skill-->
+      <div class="container" >
         <h2>Skills & Technologies</h2>
         <br>
-        <div class="skills-grid">
-          <div class="skill-category">
+        <div class="skills-grid" >
+          <div class="skill-category" >
             <h3>🐍 Programming Languages</h3>
             <span>· Python</span>
             <span>· C</span>
@@ -123,53 +116,19 @@
         </div>
       </div>
     </section>
-    <!-- ========== PROJECTS ========== -->
-    <section id="projects" class="section">
+    <section id="projects" class="section"> <!--projects-->
       <div class="container">
         <h2>Featured Projects</h2>
         <br>
         <div class="projects-grid">
           <div class="project-card">
-            <h3>SVM from Scratch</h3>
+            <h3>Vanilla ML - 8 Projects</h3>
             <p>
-              Support Vector Machine implementation using gradient descent and NumPy.
-              Built without sklearn to deeply understand the mathematics behind the algorithm.
+              End-to-end ml projects, building models from first principles.
+              Implemented core ML algo and math libraries using NumPy from scratch, followed by models using sklearn and Streamlit.
             </p>
-            <span>Python · NumPy · Linear Algebra</span>
-            <a href="https://github.com/shaurya0702-droid/SVM-From-Scratch" target="_blank">
-              View Repository →
-            </a>
-          </div>
-          <div class="project-card">
-            <h3>Logistic Regression (NumPy)</h3>
-            <p>
-              Binary classification model built entirely from scratch without sklearn.
-              Includes feature scaling, cost function optimization, and model evaluation.
-            </p>
-            <span>Python · NumPy · Pandas</span>
-            <a href="https://github.com/shaurya0702-droid/Logistic-Regression-From-Numpy-Scratch-Diabetes-Prediction-" target="_blank">
-              View Repository →
-            </a>
-          </div>
-          <div class="project-card">
-            <h3>Linear Regression from Scratch</h3>
-            <p>
-              Implemented both Normal Equation and Gradient Descent approaches.
-              Compared optimization methods and analyzed convergence behavior.
-            </p>
-            <span>Python · NumPy · Mathematics</span>
-            <a href="https://github.com/shaurya0702-droid/Linear_Regression_Scratch" target="_blank">
-              View Repository →
-            </a>
-          </div>
-          <div class="project-card">
-            <h3>XGBoost & CatBoost Cancer Prediction</h3>
-            <p>
-              Advanced ensemble learning using gradient boosting and decision trees.
-              Compared multiple boosting algorithms for medical diagnosis prediction.
-            </p>
-            <span>Python · Boosting · Ensemble Methods</span>
-            <a href="https://github.com/shaurya0702-droid/Xg-Cat-GBT-Boosting-for-Cancer-Prediction" target="_blank">
+            <span>Python · ML · Streamlit </span>
+            <a href="https://github.com/shaurya0702-droid/Vanilla-ML-projects" target="_blank">
               View Repository →
             </a>
           </div>
@@ -198,8 +157,7 @@
         </div>
       </div>
     </section>
-    <!-- ========== ACHIEVEMENTS ========== -->
-    <section class="section dark">
+    <section id="achievements" class="section dark"> <!--certi-->
       <div class="container">
         <h2>Achievements & Certifications</h2>
         <br>
@@ -207,16 +165,15 @@
           <li>🥇 <strong>MVPP Qualified</strong> – Rank 310 (Directorate of Education, GNCT Delhi)</li>
           <li>🏆 <strong>VibeClash 2025</strong> – Top 20 (Team Leader)</li>
           <li>🎓 <strong>Google Generative AI Certification</strong> (2025)</li>
-          <li>🎖️ <strong>Intel AI For All</strong> – CBSE Certified</li>
+          <li>🎖️ <strong>MLCC Machine Learning course (50 hours)</strong> – Google Certified</li>
         </ul>
       </div>
     </section>
-    <!-- ========== CONTACT ========== -->
-    <section id="contact" class="section">
+    <section id="contact" class="section"> <!--contact-->
       <div class="container">
-        <h2>Let's Connect</h2>
+        <h2 >Let's Connect</h2>
         <br>
-        <p>I'm always interested in discussing AI/ML projects, collaboration opportunities, or just talking about technology.</p>
+        <p class="tac">I'm always interested in discussing AI/ML projects, collaboration opportunities, or just talking about technology.</p>
         <div class="contact-links">
           <a href="mailto:sharawat728@gmail.com">✉️ Email</a>
           <a href="https://github.com/shaurya0702-droid" target="_blank">🐙 GitHub</a>
@@ -225,7 +182,6 @@
       </div>
     </section>
   </main>
-  <!-- ========== FOOTER ========== -->
   <footer class="footer">
     <p>© 2026 Shaurya Rawat | AI/ML Engineer</p>
     <p>Built with HTML, CSS & JavaScript</p>
