@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website built using **HTML, CSS, and Jav
 
 ## 🚀 Live Demo
 🔗 **Deployed on Vercel:**  
-👉 [My Portfolio](https://sem1portfolio.vercel.app/)
+👉 [See My Portfolio](https://1semportfolio.vercel.app/)
 
 ---
 
